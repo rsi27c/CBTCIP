@@ -133,7 +133,7 @@ public class guess {
 {
     int toguessN=numb.nextInt(1,50);
 
-    System.out.println("You've choosed easy mode,Enter your guess between 1-50");
+    System.out.println("You've choosed Normal mode,Enter your guess between 1-50");
 
   while(Guesses <= 5)
   {
@@ -236,7 +236,7 @@ public class guess {
 {
     int toguessH=numb.nextInt(1,100);
 
-    System.out.println("You've choosed easy mode,Enter your guess between 1-100");
+    System.out.println("You've choosed Hard mode,Enter your guess between 1-100");
 
   while(Guesses <= 5)
   {
